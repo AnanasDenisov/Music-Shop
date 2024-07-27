@@ -52,3 +52,37 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.registration-form h2 {
+    text-align: center;
+}
+.registration-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.registration-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.registration-form button:hover {
+    background-color: #555;
+}
